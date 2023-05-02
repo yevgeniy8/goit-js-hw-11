@@ -41,7 +41,7 @@ async function onFormClickaAddGallery() {
       );
     } else {
       galleryEl.innerHTML = createGalerryMarkup(response.data.hits);
-    //   btnLoadMoreEl.hidden = false;
+      //   btnLoadMoreEl.hidden = false;
       Notiflix.Notify.success(
         `Hooray! We found ${response.data.totalHits} images.`
       );
@@ -68,8 +68,7 @@ async function onFormClickaAddGallery() {
 function onFormClick(evt) {
   evt.preventDefault();
   page = 1;
-//   btnLoadMoreEl.hidden = true;
-
+  //   btnLoadMoreEl.hidden = true;
   query = evt.currentTarget.elements.searchQuery.value.trim();
 
   if (!query) {
