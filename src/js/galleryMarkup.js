@@ -10,7 +10,7 @@ function createGalerryMarkup(carts) {
         comments,
         downloads,
       }) => {
-        return `<a class="gallery__item" target="_self" href="${largeImageURL}>
+        return `<a class="gallery__item" target="_self" href="${largeImageURL}">
 				    <div class="img-container photo-card">
 					<img class="gallery__image" src="${webformatURL}" alt="${tags}" data-image="${largeImageURL}" loading="lazy" />
 					<div class="info">
