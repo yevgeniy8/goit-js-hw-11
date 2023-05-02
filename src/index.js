@@ -12,7 +12,7 @@ const galleryEl = document.querySelector('.gallery');
 const guardEl = document.querySelector('.guard');
 
 let page = 1;
-query = '';
+let query = '';
 
 formEL.addEventListener('submit', onFormClick);
 // btnLoadMoreEl.addEventListener('click', onClickMoreImage);
